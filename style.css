@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Italianno&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Italianno&family=Meow+Script&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+
+
+
+* {
+    margin: 0px;
+    font-size: 16px;
+    
+  }
+  body{
+    font-family:  'Helvetica Neue', sans-serif; 
+  }
+  
+  :root {
+    --stddarkblue:#030357;
+    --stdneavyblue:  #010b1d; 
+  }
+
+ 
+  nav{
+    background-color: white;
+    box-shadow: 0px 0px 5px;
+  }
+
+  .nav{
+    color:var(--stdneavyblue);
+  }
+  .nav:hover{
+    color:rgb(64, 64, 139);
+    text-decoration: 5px underline;  
+  } 
+  
+  .logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: black;
+  }
+  .nav-item{
+    border-bottom: 1px solid rgb(240, 233, 220) ;
+    padding: 10px 0px;
+    
+  }
+
+
+  .sec1{
+   
+    
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/heroimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center  ;
+  }
+
+  .logohead,
+  .contactlogohead
+  {    
+    font-family: 'Chalisa Oktavia';
+    
+      /* font-family: "Italianno"; */
+      /* font-family: "Playball"; */
+      /* font-family: "Meow Script", cursive; */
+      /* font-family: "Great Vibes"; */
+      /* font-family: 'chalisaoktavia'; */
+      font-weight: 500;
+      font-size: 4rem;
+  }
+  .quote{
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    margin-bottom: 0;
+    /* display: none; */
+  }
+.para{
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+  
+
+  .sublogohead,
+  .contactsublogo{
+    /* font-family: "Italianno"; */
+    font-family: 'Times New Roman';
+   font-style: italic;
+ 
+   font-size: 1.7rem;
+   font-weight: 500;
+   
+  }
+  .contactsublogo{
+    font-size: 1.5rem;
+  }
+  .main-header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  
+  .subhead2{
+    padding-bottom: 90px;
+  }
+
+  /* section2 */
+
+
+  .aboutimg1{
+    height: 100%;
+    width: 95%;
+    border-radius: 10px;
+  }
+  .abouthead,
+  .teamhead,
+  .projecthead,
+  .clienthead{
+    font-weight: bold;
+    font-size: 3rem;
+    
+    padding: 20px 0px;
+  }
+
+  .aboutpara{
+    padding: 0px 20px;
+    font-size: 1rem;
+  }
+  .strong{
+    color: var(--stddarkblue);
+  }
+  /* section3 */
+
+ .projectimg{
+  width: 100%;
+ 
+  /* margin-bottom: 10px; */
+  border-radius: 10px;
+
+ }
+ .prohead{
+  color: black;
+  font-weight: bolder;
+  font-size: 2rem;
+  /* text-shadow: 5px 5px 5px; */
+ }
+ .btn{
+  background-color:var(--stdneavyblue);
+ }
+ 
+  .projectfig,
+  .projectfig2,
+  .projectfig3,
+  .projectfig4,
+  .projectfig5,
+  .projectfig6{
+    position: relative;
+    height: 100%;
+    
+
+  }
+
+  
+ .projectcaption,
+ .projectcaption2,
+ .projectcaption3,
+ .projectcaption4,
+ .projectcaption5,
+ .projectcaption6{
+  position: absolute;
+  width: 96%;
+  top:40%;
+  text-align: center;
+  display: none;
+  border-radius: 10px;
+  color: black;
+
+ }
+
+  /* section4 */
+  .owlslideimg{
+    width: 80%;
+    height: 400px;
+    
+  }
+  .owlslideimg,
+  .item-details{
+    border-radius: 10px;
+  }
+  
+  .rohini{
+    width: 100%;
+  }
+   
+    .owl-carousel .owl-next,
+    .owl-carousel .owl-prev {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 50%;
+    
+    }
+    .owl-carousel .owl-prev {
+      left: -20px;
+      color: #010b1d;
+    }
+    .owl-carousel .owl-next {
+      right: -40px;
+      color: #010b1d;
+    }
+   
+    .item{
+      position: relative;
+    }
+    .item-details{
+      
+      width: 100%;
+      position: absolute;
+      bottom: 0%;
+      background-color: #010b1d;
+      text-align: center;
+    }
+  .owlcontainer{
+    padding: 0px 50px;
+  }
+  .teampara{
+    font-size: 1.2rem;
+  }
+  /* section5 */
+  .sec5{
+    background-color:var(--stdneavyblue  );
+  }
+
+
+ 
+
+ 
+
+
+
+  /* section5 */
+
+  .sec6{
+    background-color:var(--stdneavyblue);
+  }
+
+
+
+
+
+
+  @media(min-width:768px){
+
+    nav{
+      position:fixed;
+      top: 0;
+    }
+    .nav-item{
+      border-bottom: none ;
+    }
+    .logohead
+  {    
+    font-family: 'Chalisa Oktavia';
+      font-weight: 500;
+      font-size: 5.9rem;
+  }
+
+    .subhead2{
+      padding-bottom: 160px;
+    }
+    .para{
+      font-size: 1.5rem;
+      
+    }
+    .quote{
+      font-size: 1.5rem;
+      font-style: italic;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .fa-quote-left,
+    .fa-quote-right{
+      font-size: 2rem;
+    }
+    /* section2 */
+    .aboutpara{
+      font-size: 1.3rem;
+    }
+   
+ /* section3 */
+ .projectimg{
+  
+  height: 300px;
+  
+ }
+
+.owlslideimg{
+  width: 50%;
+}
+.item{
+  margin: 10px;
+}
+
+    
+  }
+
+
+  
+  @media(min-width:992px){
+   
+    .sec1{
+      height: 120vh;
+    }
+      .subhead{
+    padding-bottom: 0px;
+  }
+  .subhead2{
+    padding-bottom:0px;
+  }
+
+
+  /* section2 */
+
+  .aboutpara{
+    padding: 10px;
+  }
+  .item{
+    margin: 20px;
+  }
+  
+  .aboutinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+  }
+  /* section3 */
+  .projectimg{
+  
+    height: 400px;
+    
+   }
+
+   /* section6 */
+
+
+  .contactlogohead
+  {    
+   
+      font-weight: 500;
+      font-size: 5rem;
+  }
+ 
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
